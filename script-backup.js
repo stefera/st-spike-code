@@ -3,7 +3,7 @@ import { config } from "dotenv";
 config();
 
 const gmaps = createClient({
-  key: "AIzaSyAE3H5AzacuzEGn02DAgiNkqVcYsPDGBJ0",
+  key: env.API_KEY_MAPS,
   Promise: Promise,
 });
 const test = () => {
