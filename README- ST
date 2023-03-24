@@ -1,0 +1,16 @@
+1. set up your own .env file and add the "API_KEY" (CHAT GPT) and the "API_KEY_MAPS" (Google). ST can provide privately
+
+2. If you run into any module missing errors, here are the required dependencies:
+- npm: $ npm init -y
+- dotenv: $npm i dotenv
+- chatgpt: $npm i dotenv openai
+- google maps: $npm install @google/maps
+
+3. Running file:
+run main file with "npm run dev"
+run backup file (ST testing) with "npm run backup
+scripts in the package.json:
+    "dev": "node script.js",
+    "backup": "node script-backup.js"
+
+Ignore "index" and "index backup"
